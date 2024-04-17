@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Leveling</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+
+ 
+ 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+         
+            box-sizing: border-box;
+            background-image: url('images/bghome.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            box-shadow: 5px 10px #000000f5;
+            font-size: 17px;
+        }
+
+        header {
+            background-color: #250042a9;
+            width: ;
+            height: 10px;
+            color: white;
+            text-align: center;
+            padding: 40px;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: Protest Revolution;
+            font-size: 13px;
+            
+            
+          
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            position: sticky;
+            top:0px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em;
+            text-align: center;
+            display: block;
+            margin-right: 10px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 1em;
+            box-shadow: 5px 10px #000000f5;
+            
+        }
+
+        .product {
+            border: 1px solid black;
+            padding: 1em;
+            margin: 1em;
+            width: 300px;
+            box-shadow: 0 0px 15px white ;
+            transition: transform 0.3s ease-in-out;
+            
+            text-align: center;
+            border-radius: 10px;
+            animation: shining 2s infinite;
+            background: rgb(206,133,255);
+background: linear-gradient(0deg, rgba(206,133,255,1) 0%, rgba(146,0,207,0.26875065534542764) 100%);
+        }
+
+        .product img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 0.5em;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px #000000f5;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+            border-radius: 5px;
+        }
+
+        .product h2 {
+            margin-bottom: 0.5em;
+            border-radius: 5px;
+        }
+
+        .product button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 0.5em 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+            border-radius: 5px;
+            
+        }
+
+        .product button:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        footer {
+         
+            background-color: #250042a9;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 2px;
+            font-size: 12px;
+            
+        }
+
+        @media (max-width: 600px) {
+            .product {
+                width: 100%;
+            }
+
+            nav {
+                display: none;
+            }
+
+            header {
+                flex-direction: column;
+            }
+            
+        }
+    
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 style="background: #9128A5;
+background: linear-gradient(to right, #9128A5 0%, #400483 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; font-size: 50px;">SOLO LEVELING</h1> <h1><div class="iconCart">
+                <img src="images/icon.png">
+                <div class="totalQuantity">0</div></h1>
+
+     <nav>
+            <a href="Home.html"><i class="fas fa-home"></i> Home</a>
+            <a href="Services.html"><i class="fas fa-cogs"></i> Services</a>
+            <a href="Registration.html"><i class="fas fa-user-plus"></i> Registration</a>
+            <a href="About.html"><i class="fas fa-info-circle"></i> About Us</a>
+            <a href="References.html"><i class="fas fa-book"></i> References</a>
+</nav>
+
+             </header>
+
+    <section>
+        <div class="listProduct">
+
+            <div class="item">
+                <img src="images/1.webp" alt="">
+                <h2>CoPilot / Black / Automatic</h2>
+                <div class="price"₱3,0000</div>
+                <button>Add To Cart</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="cart">
+        <h2>
+            CART
+        </h2>
+
+        <div class="listCart">
+
+
+            <div class="item">
+                <img src="images/1.webp">
+                <div class="content">
+                    <div class="name">CoPilot / Black / Automatic</div>
+                    <div class="price">$550 / 1 product</div>
+                </div>
+                <div class="quantity">
+                    <button>-</button>
+                    <span class="value">3</span>
+                    <button>+</button>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="buttons">
+            <div style="height:30px;" class="close">
+                CLOSE
+            </div>
+            <div class="checkout">
+                <a href="checkout.html">CHECKOUT</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+   
+    
+</body>
+<footer>@2024 project in EMPOWERMENT TECHNOLOGY, made by DREWHAN REPOSAR</footer>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Hub - About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-image: url('images/bg1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em;
+            text-align: center;
+            display: block;
+            margin-right: 10px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 1em;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            border-radius: 10px; /* Add rounded corners */
+            margin: 20px; /* Add some margin for better separation from the background */
+        }
+
+        .about-us {
+            width: 100%;
+            max-width: 800px;
+            margin: 1em;
+            padding: 1em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            text-align: center;
+        }
+
+        .about-us p {
+            margin-bottom: 1em;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            .about-us {
+                width: 100%;
+            }
+
+            nav {
+                display: none;
+            }
+
+            header {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Tech Hub</h1>
+        <nav>
+            <a href="Home.html"><i class="fas fa-home"></i> Home</a>
+            <a href="Services.html"><i class="fas fa-cogs"></i> Services</a>
+            <a href="Registration.html"><i class="fas fa-user-plus"></i> Registration</a>
+            <a href="About.html"><i class="fas fa-info-circle"></i> About Us</a>
+            <a href="References.html"><i class="fas fa-book"></i> References</a>
+        </nav>
+    </header>
+
+    <section>
+        <div class="about-us">
+            <h2>About Us</h2>
+            <p>Welcome to Tech Hub, your one-stop destination for cutting-edge technology solutions. We are dedicated to providing high-quality products and services to meet the diverse needs of our customers.</p>
+            <p>Our mission is to empower individuals and businesses through innovative technology, offering a range of services from custom-built computers to reliable repairs. At Tech Hub, we strive for excellence in every aspect of our work.</p>
+            <p>Join us on this journey as we continue to explore the frontiers of technology, making your digital experience seamless and enjoyable.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>2024 <b>ICT Project</b>, Made by <b>Drewhan Reposar</b></p>
+    </footer>
+
+</body>
+
+</html>

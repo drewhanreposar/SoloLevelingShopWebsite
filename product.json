@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "name": "Solo Leveling Figurine",
+        "price": 3000,
+        "description":"Unleash the Shadow Monarch:  This epic Solo Leveling figurine brings your favorite hunter to life! (great for fans of Sung Jin-Woo)",
+        "image": "images/product1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Mini Solo Leveling Model",
+        "price": 220,
+        "description":"Power Up Your Collection: Take home a mini Solo Leveling model and relive the thrilling battles! (perfect for displaying on desks or shelves)",
+        "image": "images/product2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "LED Light Solo Leveling",
+        "price": 249,
+        "description":"Light Up the Night:  This anime LED light featuring Solo Leveling will illuminate your room with hunter-grade style! (unique collectible and conversation starter)",
+        "image": "images/product3.jpg"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Sung Jinwoo PhotoCard",
+        "price": 20,
+        "description":"The King's Portrait: Carry Sung Jin-Woo with you wherever you go with this collectible Solo Leveling photo card! (a must-have for any Solo Leveling fan)",
+        "image": "images/product4.jpg"
+    },
+     {
+        "id": 5,
+        "name": "Sung Jinwoo PhotoCard",
+        "price": 420,
+        "description":"The King's Portrait: Carry Sung Jin-Woo with you wherever you go with this collectible Solo Leveling photo card! (a must-have for any Solo Leveling fan)",
+        "image": "images/product4.jpg"
+    }
+    ,
+    {
+        "id": 6,
+        "name": "Sung Jinwoo PhotoCard",
+        "price": 420,
+        "description":"The King's Portrait: Carry Sung Jin-Woo with you wherever you go with this collectible Solo Leveling photo card! (a must-have for any Solo Leveling fan)",
+        "image": "images/product4.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Sung Jinwoo PhotoCard",
+        "price": 420,
+        "description":"The King's Portrait: Carry Sung Jin-Woo with you wherever you go with this collectible Solo Leveling photo card! (a must-have for any Solo Leveling fan)",
+        "image": "images/product4.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Sung Jinwoo PhotoCard",
+        "price": 420,
+        "description":"The King's Portrait: Carry Sung Jin-Woo with you wherever you go with this collectible Solo Leveling photo card! (a must-have for any Solo Leveling fan)",
+        "image": "images/product4.jpg"
+    }
+    ,
+    {
+        "id": 9,
+        "name": "Sung Jinwoo PhotoCard",
+        "price": 420,
+        "description":"The King's Portrait: Carry Sung Jin-Woo with you wherever you go with this collectible Solo Leveling photo card! (a must-have for any Solo Leveling fan)",
+        "image": "images/product4.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Sung Jinwoo PhotoCard",
+        "price": 420,
+        "description":"The King's Portrait: Carry Sung Jin-Woo with you wherever you go with this collectible Solo Leveling photo card! (a must-have for any Solo Leveling fan)",
+        "image": "images/product4.jpg"
+    }
+]

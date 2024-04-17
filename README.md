@@ -1,1 +1,3 @@
-# SoloLevelingShopWebsite
+In this Empowerment Technology project, conducted as part of Grade 11 curriculum at Our Lady of Fatima University, Pampanga Campus.
+
+ I, Drewhan Reposar, took the initiative to create a website using a layout designed by Sir Khyle Menwel Rivera. Integrating elements from various internet sources, I customized and tailored the website to meet our project objectives. Through collaborative efforts, we melded Sir Khyle's design expertise with my own creative input, resulting in a visually appealing and functional website.

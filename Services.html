@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Hub - Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-image: url('images/bg1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em;
+            text-align: center;
+            display: block;
+            margin-right: 10px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 1em;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            border-radius: 10px; /* Add rounded corners */
+            margin: 20px; /* Add some margin for better separation from the background */
+        }
+
+        .service {
+            border: 1px solid #ddd;
+            padding: 1em;
+            margin: 1em;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            background-color: white;
+            text-align: center;
+        }
+
+        .service img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 0.5em;
+        }
+
+        .service:hover {
+            transform: scale(1.05);
+        }
+
+        .service h3,
+        .service p {
+            margin-bottom: 0.5em;
+        }
+
+        .service button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 0.5em 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .service button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 5;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            .service {
+                width: 100%;
+            }
+
+            nav {
+                display: none;
+            }
+
+            header {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Tech Hub</h1>
+        <nav>
+            <a href="Home.html"><i class="fas fa-home"></i> Home</a>
+            <a href="Services.html"><i class="fas fa-cogs"></i> Services</a>
+            <a href="Registration.html"><i class="fas fa-user-plus"></i> Registration</a>
+            <a href="About.html"><i class="fas fa-info-circle"></i> About Us</a>
+            <a href="References.html"><i class="fas fa-book"></i> References</a>
+        </nav>
+    </header>
+
+    <section>
+        <div class="service">
+            <img src="images/custom.jpg" alt="Custom Build Service Image">
+            <h3>Custom Build</h3>
+            <p>
+                Create a customized computer tailored to your specific needs. Whether you're a gamer, content creator,
+                or professional, we'll build a system that suits your requirements.
+            </p>
+            <button>Learn More</button>
+        </div>
+
+        <div class="service">
+            <img src="images/repair.jpg" alt="Repair Service Image">
+            <h3>Repair</h3>
+            <p>
+                We offer reliable and efficient repair services for a variety of electronic devices, including
+                computers, laptops, and more. Our skilled technicians can diagnose and fix hardware and software
+                issues to get your devices back up and running.
+            </p>
+            <button>Learn More</button>
+        </div>
+
+        <!-- Add more services as needed -->
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tech Hub. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+/* styles.css */
+
+body {
+    font-family: Copperplate;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('images/sololeveling.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    background-color: ;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    width: 50%;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    font-family: Copperplate;
+    font-size: 4em;
+    position: relative;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: appearFromLeft 1s ease-in-out forwards;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 10;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.tech {
+    color: white;
+}
+
+.hub {
+    color: white;
+}
+
+@keyframes appearFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.home-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5em 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    right: 0;
+    opacity: 0;
+    animation: appearFromRight 1s ease-in-out forwards;
+    transition: background-color 0.3s ease-in-out;
+    background-color: red;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+
+}
+
+.home-button:hover {
+    background-color: #555;
+}
+
+@keyframes appearFromRight {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+.gradient-text {
+  /* Fallback: Set a background color. */
+  background-color: red;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+
+/* Style the rest of the page. */
+body {
+  background-color: #181123;
+}
+
+header {
+  margin-top: 1em;
+  margin-top: calc(50vh - 3em);
+}
+
+h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: normal;
+  font-size: 6em;
+  text-align: center;
+  margin-bottom: 0;
+  margin-bottom: -0.25em;
+}
+
+
+}
